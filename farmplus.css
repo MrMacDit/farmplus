@@ -1,0 +1,119 @@
+.padding {
+    padding: 50px;
+    margin-top: 15px;
+}
+/* preNav */
+.creamy {
+  background-color: rgb(241, 250, 248);
+}
+
+/* Navigation */
+.naves {
+  background: green;
+  margin-left: 300px;
+  margin-right: 150px;
+  margin-top: -40px;
+  border-radius: 30px;
+  padding: 12px;
+}
+
+.naves li {
+  padding-left: 25px;
+}
+
+.naves li a {
+  color: black;
+}
+
+.naves button {
+  margin-left: 15px;
+  border-radius: 12px;
+}
+
+/* Carousel */
+img .img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* After big Picture */
+.bigPicture img {
+  max-height: 50%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bigPicture .highs {
+    min-height: 100%;
+}
+
+/* Start Your Farm */
+.farm {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
+
+
+/* Top Services */
+.tServices {
+    background-color: rgb(241, 250, 248);
+}
+
+.tServices p {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.tServicesImages img{
+    max-height: 50%;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tServicesImages .card {
+    padding: 20px;
+    margin: 12px;
+}
+
+
+/* Experts in the Field */
+.experts p {
+    text-align: center;
+}
+
+/* Our Partners and Sponsors */
+.sponsors img{
+    max-height: 70%;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer */
+footer {
+    background: rgba(34, 34, 34, 0.822);
+}
+
+
+
+footer p {
+    text-align: left;
+    color: white;
+}
+
+footer h6 {
+    font-weight: bolder;
+    color: white;
+}
+
+footer li {
+    list-style: square;
+    margin-left: -30px;
+}
+
+footer a {
+    color: white;
+}

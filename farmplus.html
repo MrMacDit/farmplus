@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FarmPlus</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5e3066eb69.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="farmplus.css" />
+  </head>
+  <body>
+
+    <!-- -------------PreNavbar---------------- -->
+    <div class="container-fluid creamy">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-1">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo/Farm.png" alt="FarmPlus">
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <p>
+                    <i class="fas fa-info"></i>  Nigeria #1 Agriculture Site
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    <i class="fas fa-phone f095"></i>   +234-9034860368
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    <i class="fas fa-envelope f0e0"></i>   info@farmplus.com.ng
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md naves sticky-top">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#smartsHOmes"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="smartsHOmes">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownA"
+                  role="button"
+                  data-toggle="dropdown"
+                  >About Us</a
+                >
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownA">
+                  <a href="#" class="dropdown-item">The Company</a>
+                  <a href="#" class="dropdown-item">The Team</a>
+                  <a href="#" class="dropdown-item">Testimony</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownB"
+                  role="button"
+                  data-toggle="dropdown"
+                  >Services</a
+                >
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownB">
+                  <a href="#" class="dropdown-item">Farm Service</a>
+                  <a href="#" class="dropdown-item">Brokage Service</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact Us</a>
+              </li>
+
+              <li>
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+              </li>
+              <li>
+                <a href="#">
+                    <i class="fab fa-instagram-square"></i>
+                  </a>
+              </li>
+              <button type="button" class="btn btn-outline-light btn-sm">Login</button>
+              <button type="button" class="btn btn-outline-light btn-sm">Signup</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- carousel -->
+
+      <div class="container-fluid padding">
+        <div class="carousel slide" id="letSlide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#letSlide" data-slide-to="0"></li>
+            <li data-target="#letSlide" data-slide-to="1"></li>
+          </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                    class="img-fluid"
+                    src="images/1.Carousel/farming.jpg"
+                    alt="Farming"
+                    />
+                    <div class="carousel-caption">
+                    <h1 class="display-3">A New Way To Invest In Agriculture</h1>
+                    <p class="display-4">Experience The Real <b>Agriculture</b></p>
+                    <button class="btn btn-success" type="button">Read More</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                    class="img-fluid"
+                    src="images/1.Carousel/growing-rice.jpg"
+                    alt="Growing Rice"
+                    />
+                    <div class="carousel-caption">
+                    <h1 class="display-3">
+                        A New Way To Invest In Agriculture</h1>
+                    <p class="display-4">Experience The Real <b>Agriculture</b></p>
+                    <button class="btn btn-success" type="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+    <!-- After that Big picture -->
+    <div class="container padding bigPicture">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/2.afterBigImage/agri_product.png" alt="Agricultural Products" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Agricultural Products</h5>
+                    <hr>
+                    <p class="card-text">Promising farm returns</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/2.afterBigImage/agri_education.png" alt="Agricultural Education" class="card-img-top">
+                <div class="card-body">
+                    <h6 class="card-title">Agricultural Education</h6>
+                    <hr>
+                    <p class="card-text">Empowering farmers & Youth</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/2.afterBigImage/organic_fertilizer.png" alt="Organic Fertilizer" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Organic Fertilizer</h5>
+                    <hr>
+                    <p class="card-text">Strengthening Nigeria food security</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/2.afterBigImage/farming_credits.png" alt="Farming Credits" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Farming Credits</h5>
+                    <hr>
+                    <p class="card-text">Utilizing arable farming</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Start Your Farm -->
+<div class="container padding">
+    <div class="farm">
+        <h3 class="deals">Start Your Farm</h3>
+    <img class="sYfArm" src="images/Top Services/agri_underline2.png" alt="underline">
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Start Your Farm/Farmplus Foods.jpg" alt="Farmplus Foods" class="card-img-top">
+                <hr>
+                <div class="card-body">
+                    <h4 class="card-title">Farmplus Foods</h4>
+                    <p class="display2">Oyo State</p>
+                    <p class="card-text">
+                        <p class="indent">#50000 & Above</p>
+                        <p>30% returns in 11 months</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Start Your Farm/Farmplus Animals.jpg" alt="Farmplus Animals" class="card-img-top">
+                <hr>
+                <div class="card-body">
+                    <h4 class="card-title">Farmplus Animals</h4>
+                    <p class="display2">Oyo State</p>
+                    <p class="card-text">
+                        <p class="indent">#50000 & Above</p>
+                        <p>41% returns in 11 months</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Start Your Farm/Farmplus Foods_Osun.jpg" alt="Farmplus Foods" class="card-img-top">
+                <hr>
+                <div class="card-body">
+                    <h4 class="card-title">Farmplus Foods</h4>
+                    <p class="display2">Osun State</p>
+                    <p class="card-text">
+                        <p class="indent">#50000 & Above</p>
+                        <p>25% returns in 9 months</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img src="images/Start Your Farm/Farmplus Foods3.jpg" alt="Farmplus Foods" class="card-img-top">
+                <hr>
+                <div class="card-body">
+                    <h4 class="card-title">Farmplus Foods</h4>
+                    <p class="display2">Oyo State</p>
+                    <p class="card-text">
+                        <p class="indent">#50000 & Above</p>
+                        <p>25% returns in 6 months</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+            <a href="#">
+                <button class="btn btn-success" type="button">See More Farm</button>
+            </a>
+        </div>
+        <div class="col-5"></div>
+    </div>
+</div>
+
+<!-- Top Services -->
+    <div class="container-fluid padding tServices">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-5">
+                <div class="farm">
+                    <h3 class="deals">Top Services</h3>
+                <img class="sYfArm" src="images/Top Services/agri_underline2.png" alt="underline">
+                </div>
+                <p>Empowering small-holder farmers and Nigerian youths at large is our priority and a way of contributing to increasing domestic food production and security.</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <img src="images/Top Services/Top Services.png" alt="Top serrvices">
+            </div>
+            <div class="col-md-6">
+                <div class="row tServicesImages">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/Top Services/Farmers Integration.png" alt="Farmers Integration" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Farmer Integration</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/Top Services/Biogas Installation.png" alt="Biogas Installation" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Biogas Installation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row tServicesImages">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/Top Services/Agricultural Investment.png" alt="Agricultural Investment" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Agricultural Investment</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="images/Top Services/Educations & Events.png" alt="Educations & Events" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Educations & Events</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- We Are An Expert In This Field -->
+    <div class="container padding experts">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="farm">
+                    <h3 class="deals">We Are An Expert In This Field</h3>
+                <img class="sYfArm" src="images/Top Services/agri_underline2.png" alt="underline">
+                </div>
+                <p>We are driven to be the foremost digital agriculture platform in Africa admired for its impact on collaborative food production and boosting food security across the continent.</p>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <span>
+                    <img src="images/Experts in this field/Happy Customers.png" alt="Happy Customers">
+                    <p>26K+</p>
+                    <p>Happy Customers</p>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span>
+                    <img src="images/Experts in this field/Farm Projects.png" alt="Farm Projects">
+                    <p>700+</p>
+                    <p>Farm Projects</p>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span>
+                    <img src="images/Experts in this field/Farm Sponsors.png" alt="Farm Sponsors">
+                    <p>200+</p>
+                    <p>Farm Sponsors</p>
+                </span>
+            </div>
+            <div class="col-md-3">
+                <span>
+                    <img src="images/Experts in this field/Trading Licenses.png" alt="Trading Licenses">
+                    <p>26K+</p>
+                    <p>Trading Licenses</p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Post -->
+    <!-- <div>
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <h3>Blog Post</h3>
+                    <img src="images/Blog Posts/underline3.png" alt="underline">
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Our Partners And Sponsors -->
+    <div class="container padding">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="farm">
+                    <h3 class="deals">Our Partners And Sponsors</h3>
+                <img class="sYfArm" src="images/Top Services/agri_underline2.png" alt="underline">
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+        <div class="row sponsors">
+            <div class="col-md-3">
+                <img src="images/Partners and Sponsors/Bluescript.png" alt="Bluescript">
+            </div>
+            
+            <div class="col-md-3">
+                <img src="images/Partners and Sponsors/Starthomes.png" alt="SmartHomes">
+            </div>
+
+            <div class="col-md-3">
+                <img src="images/Partners and Sponsors/Capital express.png" alt="Capital express">
+            </div>
+            
+            <div class="col-md-3">
+                <img src="images/Partners and Sponsors/Farm.png" alt="Farm">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container padding">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/logo/Farm.png" alt="logo">
+                    <p>Farmplus is Nigeria's first agriculuture website that is positioned to create & encourage Nigerian youths to venture into agriculture. Farmplus is a digitalized agriculture platform that provide up to date information to farmers on seedling, farming technique, greenhouse and support with platform to sell their products at profitable rate</p>
+                    <p>CALL NOW</p>
+                    <p>( +234 ) 9034860368</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h6>Services</h6>
+                    <img src="images/Blog Posts/underline3.png" alt="underline">
+                    <ul>
+                        <li>
+                            <a href="#">Crops & Animal Farm</a>
+                        </li>
+                        <li>
+                            <a href="#">Agricultural Investment</a>
+                        </li>
+                        <li>
+                            <a href="#">Poultry & Agricultural Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Biogas Installation</a>
+                        </li>
+                        <li>
+                            <a href="#">Brokage</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <h6>Support</h6>
+                    <img src="images/Blog Posts/underline3.png" alt="underline">
+                    <ul>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Delivery Information</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms And Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Support 24/7</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h6>Social Media</h6>
+                    <img src="images/Blog Posts/underline3.png" alt="underline">
+                    <p>
+                        <a href="#">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-twitter-square"></i>
+                        </a>
+                        <a href="#">
+                          <i class="fab fa-instagram-square"></i>
+                        </a>
+                      </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
